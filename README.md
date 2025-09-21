@@ -168,6 +168,7 @@ temperature = 0.1        # LLM creativity (0.0-1.0)
 timeout = 10.0          # MCP connection timeout (seconds)
 ```
 
+
 ## 📊 Example Workflows
 
 ### Research Query
@@ -261,6 +262,35 @@ agentic-internet-rsearch-deepagents/
 ├── .env                    # Environment configuration
 └── README.md              # This file
 ```
+
+## 📷 Demo Screenshots
+
+### Agent System Prompt Initialization
+![Demo Screenshot](/images/agent-system-prompt.jpg )
+
+### SerpApi MCP Tool Call with DeepAgent (Google Search Tool Call results)
+![Demo Screenshot](/images/serpapi-agent-search.png )
+
+
+### Algolia Object Ingestion by the Agent
+![Demo Screenshot](/images/algolia-object-ingestion.png )
+
+### Algolia Index Search by the Agent
+![Demo Screenshot](/images/index-search-algolia.png )
+
+### Algolia Ingested Record by the Agent
+![Demo Screenshot](/images/algolia-record.png )
+
+### OpenSearch MCP Tool Call with DeepAgent
+![Demo Screenshot](/images/opensearch-object-creation.png )
+
+
+### Monitoring with Mistral LeChat my OpenSearch MCP server
+![Demo Screenshot](/images/lechat-opensearch-mcp-server-call.png )
+
+
+### Visulisation of an Agent Completing Task
+![Demo Screenshot](/images/agent-completing-task.jpg )
 
 ## 🤝 Contributing
 
