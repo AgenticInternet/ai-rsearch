@@ -1,1 +1,1 @@
-web: chainlit run app.py -w --port $PORT
+web: chainlit run app.py -w --port $PORT --host 0.0.0.0
