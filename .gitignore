@@ -153,3 +153,5 @@ cython_debug/
 .specstory/
 algolia_helper.py
 ca.pem
+FIXES_SUMMARY.md
+MIGRATION_SUMMARY.md
